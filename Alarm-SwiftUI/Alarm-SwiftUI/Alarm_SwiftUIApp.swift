@@ -24,7 +24,7 @@ struct Alarm_SwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            /*switch themeNumber {
+            switch themeNumber {
             case 0:
                 DefaultThemeAlarmView()
             case 1:
@@ -41,8 +41,7 @@ struct Alarm_SwiftUIApp: App {
                 WhiteMintAlarmView()
             default:
                 AlarmView()
-            }*/
-            AlarmView()
+            }
         }
     }
 }
