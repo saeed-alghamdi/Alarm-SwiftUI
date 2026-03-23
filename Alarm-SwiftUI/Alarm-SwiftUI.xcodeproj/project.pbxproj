@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3F1E1B2F59B4EA00C5F0EB /* AVAudioPlayerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E1A2F59B4EA00C5F0EB /* AVAudioPlayerObserver.swift */; };
+		AC3F1E1D2F5C52B500C5F0EB /* RingtoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E1C2F5C52B500C5F0EB /* RingtoneList.swift */; };
+		AC3F1E1F2F5C64A200C5F0EB /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E1E2F5C64A100C5F0EB /* ThemesView.swift */; };
+		AC3F1E212F5C653900C5F0EB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E202F5C653900C5F0EB /* AboutView.swift */; };
+		AC3F1E232F5CD3F600C5F0EB /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E222F5CD3F600C5F0EB /* LocalNotification.swift */; };
+		AC3F1E262F5EF8F100C5F0EB /* AlarmRingtoneHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F1E252F5EF8F100C5F0EB /* AlarmRingtoneHandler.swift */; };
+		AC3F1E292F60C88100C5F0EB /* skype_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E282F60C88000C5F0EB /* skype_call.mp3 */; };
+		AC3F1E2C2F60CA1700C5F0EB /* wake_up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E2A2F60CA1700C5F0EB /* wake_up.mp3 */; };
+		AC3F1E2D2F60CA1700C5F0EB /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3F1E2B2F60CA1700C5F0EB /* alarm.mp3 */; };
+		AC40723F2CBCF72300B88BD2 /* Alarm_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40723E2CBCF72300B88BD2 /* Alarm_SwiftUIApp.swift */; };
+		AC4072412CBCF72300B88BD2 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4072402CBCF72300B88BD2 /* AlarmView.swift */; };
+		AC4072432CBCF72500B88BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4072422CBCF72500B88BD2 /* Assets.xcassets */; };
+		AC4072462CBCF72500B88BD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4072452CBCF72500B88BD2 /* Preview Assets.xcassets */; };
+		AC4072522CBD09C100B88BD2 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC4072512CBD09B400B88BD2 /* digital-7.ttf */; };
+		AC4072542CBD11EF00B88BD2 /* SettingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4072532CBD11EF00B88BD2 /* SettingsList.swift */; };
+		AC40725A2CBF71CC00B88BD2 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4072592CBF71CC00B88BD2 /* Time.swift */; };
+		AC40725C2CBF740400B88BD2 /* AlarmTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40725B2CBF740400B88BD2 /* AlarmTimePicker.swift */; };
+		AC9AE3672CC933D10070DDE4 /* morning_flower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC9AE3662CC933D10070DDE4 /* morning_flower.mp3 */; };
+		AC9AE3692CC93B7D0070DDE4 /* morning_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC9AE3682CC93B7D0070DDE4 /* morning_alarm.mp3 */; };
+		AC9AE42F2CD6B52D0070DDE4 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC9AE42C2CD6B52D0070DDE4 /* click.mp3 */; };
+		AC9AE4302CD6B52D0070DDE4 /* click-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC9AE42D2CD6B52D0070DDE4 /* click-3.mp3 */; };
+		AC9AE4312CD6B52D0070DDE4 /* click-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC9AE42E2CD6B52D0070DDE4 /* click-2.mp3 */; };
+		ACCE274E2F621AEF004C6EB8 /* RingtoneAlarmPickerObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE274D2F621AEF004C6EB8 /* RingtoneAlarmPickerObservation.swift */; };
+		ACCE27512F6223F8004C6EB8 /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27502F6223F8004C6EB8 /* ToastMessageView.swift */; };
+		ACCE27562F64F6C7004C6EB8 /* TimeDateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27552F64F6C7004C6EB8 /* TimeDateHandler.swift */; };
+		ACCE27592F64F7C1004C6EB8 /* DefaultThemeAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27582F64F7C1004C6EB8 /* DefaultThemeAlarmView.swift */; };
+		ACCE275C2F64F849004C6EB8 /* DefaultThemeAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE275B2F64F849004C6EB8 /* DefaultThemeAlarmTimePickerView.swift */; };
+		ACCE275E2F64F873004C6EB8 /* DefaultThemeSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE275D2F64F873004C6EB8 /* DefaultThemeSettingsListView.swift */; };
+		ACCE27602F64F8A4004C6EB8 /* DefaultThemeRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE275F2F64F8A4004C6EB8 /* DefaultThemeRingtoneListView.swift */; };
+		ACCE27622F64F8E8004C6EB8 /* DefaultThemeThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27612F64F8E8004C6EB8 /* DefaultThemeThemesView.swift */; };
+		ACCE27642F64F913004C6EB8 /* DefaultThemeAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27632F64F913004C6EB8 /* DefaultThemeAboutView.swift */; };
+		ACCE27672F64F96B004C6EB8 /* BlackRedAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27662F64F96B004C6EB8 /* BlackRedAlarmView.swift */; };
+		ACCE27692F64F993004C6EB8 /* BlackRedAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27682F64F993004C6EB8 /* BlackRedAlarmTimePickerView.swift */; };
+		ACCE276B2F64F9DE004C6EB8 /* BlackRedSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE276A2F64F9DE004C6EB8 /* BlackRedSettingsListView.swift */; };
+		ACCE276D2F64FA03004C6EB8 /* BlackRedRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE276C2F64FA03004C6EB8 /* BlackRedRingtoneListView.swift */; };
+		ACCE276F2F64FA33004C6EB8 /* BlackRedThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE276E2F64FA33004C6EB8 /* BlackRedThemesView.swift */; };
+		ACCE27712F64FA5E004C6EB8 /* BlackRedAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27702F64FA5E004C6EB8 /* BlackRedAboutView.swift */; };
+		ACCE27742F650D44004C6EB8 /* WhiteBlueAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27732F650D44004C6EB8 /* WhiteBlueAlarmView.swift */; };
+		ACCE27762F650FCC004C6EB8 /* WhiteBlueAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27752F650FCC004C6EB8 /* WhiteBlueAlarmTimePickerView.swift */; };
+		ACCE27782F651047004C6EB8 /* WhiteBlueSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27772F651047004C6EB8 /* WhiteBlueSettingsListView.swift */; };
+		ACCE277A2F651086004C6EB8 /* WhiteBlueRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27792F651086004C6EB8 /* WhiteBlueRingtoneListView.swift */; };
+		ACCE277C2F6510B5004C6EB8 /* WhiteBlueThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE277B2F6510B5004C6EB8 /* WhiteBlueThemesView.swift */; };
+		ACCE277E2F6510E6004C6EB8 /* WhiteBlueAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE277D2F6510E6004C6EB8 /* WhiteBlueAboutView.swift */; };
+		ACCE27882F666099004C6EB8 /* YellowBlackAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27872F666099004C6EB8 /* YellowBlackAlarmView.swift */; };
+		ACCE278A2F6660B3004C6EB8 /* YellowBlackAlarmTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27892F6660B3004C6EB8 /* YellowBlackAlarmTimePicker.swift */; };
+		ACCE278C2F6660C9004C6EB8 /* YellowBlackSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE278B2F6660C9004C6EB8 /* YellowBlackSettingsListView.swift */; };
+		ACCE278E2F6660DB004C6EB8 /* YellowBlackRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE278D2F6660DB004C6EB8 /* YellowBlackRingtoneListView.swift */; };
+		ACCE27902F6660E7004C6EB8 /* YellowBlackThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE278F2F6660E7004C6EB8 /* YellowBlackThemesView.swift */; };
+		ACCE27922F6660F3004C6EB8 /* YellowBlackAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27912F6660F3004C6EB8 /* YellowBlackAboutView.swift */; };
+		ACCE27942F666182004C6EB8 /* BlueOrangeAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27932F666182004C6EB8 /* BlueOrangeAlarmView.swift */; };
+		ACCE27962F66619C004C6EB8 /* BlueOrangeAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27952F66619C004C6EB8 /* BlueOrangeAlarmTimePickerView.swift */; };
+		ACCE27982F6661AF004C6EB8 /* BlueOrangeSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27972F6661AF004C6EB8 /* BlueOrangeSettingsListView.swift */; };
+		ACCE279A2F6661C0004C6EB8 /* BlueOrangeRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27992F6661C0004C6EB8 /* BlueOrangeRingtoneListView.swift */; };
+		ACCE279C2F6661CD004C6EB8 /* BlueOrangeThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE279B2F6661CD004C6EB8 /* BlueOrangeThemesView.swift */; };
+		ACCE279E2F6661DB004C6EB8 /* BlueOrangeAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE279D2F6661DB004C6EB8 /* BlueOrangeAboutView.swift */; };
+		ACCE27A02F6661F6004C6EB8 /* PinkWhiteAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE279F2F6661F6004C6EB8 /* PinkWhiteAlarmView.swift */; };
+		ACCE27A22F666202004C6EB8 /* PinkWhiteAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27A12F666202004C6EB8 /* PinkWhiteAlarmTimePickerView.swift */; };
+		ACCE27A42F666213004C6EB8 /* PinkWhiteSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27A32F666213004C6EB8 /* PinkWhiteSettingsListView.swift */; };
+		ACCE27A62F666223004C6EB8 /* PinkWhiteRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27A52F666223004C6EB8 /* PinkWhiteRingtoneListView.swift */; };
+		ACCE27A82F66622F004C6EB8 /* PinkWhiteThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27A72F66622F004C6EB8 /* PinkWhiteThemesView.swift */; };
+		ACCE27AA2F666239004C6EB8 /* PinkWhiteAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27A92F666239004C6EB8 /* PinkWhiteAboutView.swift */; };
+		ACCE27B82F6662AC004C6EB8 /* WhiteMintAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27B72F6662AC004C6EB8 /* WhiteMintAlarmView.swift */; };
+		ACCE27BA2F6662B6004C6EB8 /* WhiteMintAlarmTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27B92F6662B6004C6EB8 /* WhiteMintAlarmTimePickerView.swift */; };
+		ACCE27BC2F6662C4004C6EB8 /* WhiteMintSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27BB2F6662C4004C6EB8 /* WhiteMintSettingsListView.swift */; };
+		ACCE27BE2F6662D0004C6EB8 /* WhiteMintRingtoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27BD2F6662D0004C6EB8 /* WhiteMintRingtoneListView.swift */; };
+		ACCE27C02F6662DE004C6EB8 /* WhiteMintThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27BF2F6662DE004C6EB8 /* WhiteMintThemesView.swift */; };
+		ACCE27C22F6662E8004C6EB8 /* WhiteMintAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE27C12F6662E8004C6EB8 /* WhiteMintAboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3F1E1A2F59B4EA00C5F0EB /* AVAudioPlayerObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioPlayerObserver.swift; sourceTree = "<group>"; };
+		AC3F1E1C2F5C52B500C5F0EB /* RingtoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingtoneList.swift; sourceTree = "<group>"; };
+		AC3F1E1E2F5C64A100C5F0EB /* ThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesView.swift; sourceTree = "<group>"; };
+		AC3F1E202F5C653900C5F0EB /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		AC3F1E222F5CD3F600C5F0EB /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		AC3F1E252F5EF8F100C5F0EB /* AlarmRingtoneHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRingtoneHandler.swift; sourceTree = "<group>"; };
+		AC3F1E282F60C88000C5F0EB /* skype_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = skype_call.mp3; sourceTree = "<group>"; };
+		AC3F1E2A2F60CA1700C5F0EB /* wake_up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wake_up.mp3; sourceTree = "<group>"; };
+		AC3F1E2B2F60CA1700C5F0EB /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		AC40723B2CBCF72300B88BD2 /* Alarm-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC40723E2CBCF72300B88BD2 /* Alarm_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_SwiftUIApp.swift; sourceTree = "<group>"; };
+		AC4072402CBCF72300B88BD2 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		AC4072422CBCF72500B88BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4072452CBCF72500B88BD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC40724E2CBD07A100B88BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC4072512CBD09B400B88BD2 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		AC4072532CBD11EF00B88BD2 /* SettingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsList.swift; sourceTree = "<group>"; };
+		AC4072592CBF71CC00B88BD2 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		AC40725B2CBF740400B88BD2 /* AlarmTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTimePicker.swift; sourceTree = "<group>"; };
+		AC9AE3662CC933D10070DDE4 /* morning_flower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning_flower.mp3; sourceTree = "<group>"; };
+		AC9AE3682CC93B7D0070DDE4 /* morning_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning_alarm.mp3; sourceTree = "<group>"; };
+		AC9AE42C2CD6B52D0070DDE4 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		AC9AE42D2CD6B52D0070DDE4 /* click-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "click-3.mp3"; sourceTree = "<group>"; };
+		AC9AE42E2CD6B52D0070DDE4 /* click-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "click-2.mp3"; sourceTree = "<group>"; };
+		ACCE274D2F621AEF004C6EB8 /* RingtoneAlarmPickerObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingtoneAlarmPickerObservation.swift; sourceTree = "<group>"; };
+		ACCE27502F6223F8004C6EB8 /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
+		ACCE27552F64F6C7004C6EB8 /* TimeDateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDateHandler.swift; sourceTree = "<group>"; };
+		ACCE27582F64F7C1004C6EB8 /* DefaultThemeAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeAlarmView.swift; sourceTree = "<group>"; };
+		ACCE275B2F64F849004C6EB8 /* DefaultThemeAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE275D2F64F873004C6EB8 /* DefaultThemeSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE275F2F64F8A4004C6EB8 /* DefaultThemeRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE27612F64F8E8004C6EB8 /* DefaultThemeThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeThemesView.swift; sourceTree = "<group>"; };
+		ACCE27632F64F913004C6EB8 /* DefaultThemeAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultThemeAboutView.swift; sourceTree = "<group>"; };
+		ACCE27662F64F96B004C6EB8 /* BlackRedAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27682F64F993004C6EB8 /* BlackRedAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE276A2F64F9DE004C6EB8 /* BlackRedSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE276C2F64FA03004C6EB8 /* BlackRedRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE276E2F64FA33004C6EB8 /* BlackRedThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedThemesView.swift; sourceTree = "<group>"; };
+		ACCE27702F64FA5E004C6EB8 /* BlackRedAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRedAboutView.swift; sourceTree = "<group>"; };
+		ACCE27732F650D44004C6EB8 /* WhiteBlueAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27752F650FCC004C6EB8 /* WhiteBlueAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE27772F651047004C6EB8 /* WhiteBlueSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE27792F651086004C6EB8 /* WhiteBlueRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE277B2F6510B5004C6EB8 /* WhiteBlueThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueThemesView.swift; sourceTree = "<group>"; };
+		ACCE277D2F6510E6004C6EB8 /* WhiteBlueAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBlueAboutView.swift; sourceTree = "<group>"; };
+		ACCE27872F666099004C6EB8 /* YellowBlackAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27892F6660B3004C6EB8 /* YellowBlackAlarmTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackAlarmTimePicker.swift; sourceTree = "<group>"; };
+		ACCE278B2F6660C9004C6EB8 /* YellowBlackSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE278D2F6660DB004C6EB8 /* YellowBlackRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE278F2F6660E7004C6EB8 /* YellowBlackThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackThemesView.swift; sourceTree = "<group>"; };
+		ACCE27912F6660F3004C6EB8 /* YellowBlackAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBlackAboutView.swift; sourceTree = "<group>"; };
+		ACCE27932F666182004C6EB8 /* BlueOrangeAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27952F66619C004C6EB8 /* BlueOrangeAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE27972F6661AF004C6EB8 /* BlueOrangeSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE27992F6661C0004C6EB8 /* BlueOrangeRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE279B2F6661CD004C6EB8 /* BlueOrangeThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeThemesView.swift; sourceTree = "<group>"; };
+		ACCE279D2F6661DB004C6EB8 /* BlueOrangeAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueOrangeAboutView.swift; sourceTree = "<group>"; };
+		ACCE279F2F6661F6004C6EB8 /* PinkWhiteAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27A12F666202004C6EB8 /* PinkWhiteAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE27A32F666213004C6EB8 /* PinkWhiteSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE27A52F666223004C6EB8 /* PinkWhiteRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE27A72F66622F004C6EB8 /* PinkWhiteThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteThemesView.swift; sourceTree = "<group>"; };
+		ACCE27A92F666239004C6EB8 /* PinkWhiteAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkWhiteAboutView.swift; sourceTree = "<group>"; };
+		ACCE27B72F6662AC004C6EB8 /* WhiteMintAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintAlarmView.swift; sourceTree = "<group>"; };
+		ACCE27B92F6662B6004C6EB8 /* WhiteMintAlarmTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintAlarmTimePickerView.swift; sourceTree = "<group>"; };
+		ACCE27BB2F6662C4004C6EB8 /* WhiteMintSettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintSettingsListView.swift; sourceTree = "<group>"; };
+		ACCE27BD2F6662D0004C6EB8 /* WhiteMintRingtoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintRingtoneListView.swift; sourceTree = "<group>"; };
+		ACCE27BF2F6662DE004C6EB8 /* WhiteMintThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintThemesView.swift; sourceTree = "<group>"; };
+		ACCE27C12F6662E8004C6EB8 /* WhiteMintAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteMintAboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4072382CBCF72300B88BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3F1E242F5EF89700C5F0EB /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F1E1A2F59B4EA00C5F0EB /* AVAudioPlayerObserver.swift */,
+				AC3F1E222F5CD3F600C5F0EB /* LocalNotification.swift */,
+				AC3F1E252F5EF8F100C5F0EB /* AlarmRingtoneHandler.swift */,
+				ACCE274D2F621AEF004C6EB8 /* RingtoneAlarmPickerObservation.swift */,
+				ACCE27552F64F6C7004C6EB8 /* TimeDateHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		AC3F1E272F5F028D00C5F0EB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AE42E2CD6B52D0070DDE4 /* click-2.mp3 */,
+				AC9AE42D2CD6B52D0070DDE4 /* click-3.mp3 */,
+				AC9AE42C2CD6B52D0070DDE4 /* click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC4072322CBCF72300B88BD2 = {
+			isa = PBXGroup;
+			children = (
+				AC40723D2CBCF72300B88BD2 /* Alarm-SwiftUI */,
+				AC40723C2CBCF72300B88BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC40723C2CBCF72300B88BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC40723B2CBCF72300B88BD2 /* Alarm-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC40723D2CBCF72300B88BD2 /* Alarm-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				AC40723E2CBCF72300B88BD2 /* Alarm_SwiftUIApp.swift */,
+				AC40724E2CBD07A100B88BD2 /* Info.plist */,
+				AC4072422CBCF72500B88BD2 /* Assets.xcassets */,
+				AC9AE36A2CC93FB80070DDE4 /* Model */,
+				AC9AE3652CC933BB0070DDE4 /* MP3 Ringtones */,
+				AC4072502CBD09A900B88BD2 /* fonts */,
+				AC3F1E242F5EF89700C5F0EB /* Handler */,
+				AC3F1E272F5F028D00C5F0EB /* Sounds */,
+				ACCE274F2F6223D5004C6EB8 /* SubViews */,
+				AC4072442CBCF72500B88BD2 /* Preview Content */,
+				ACCE27572F64F7A6004C6EB8 /* ThemesViews */,
+				AC9AE36B2CC93FC10070DDE4 /* Views */,
+			);
+			path = "Alarm-SwiftUI";
+			sourceTree = "<group>";
+		};
+		AC4072442CBCF72500B88BD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC4072452CBCF72500B88BD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC4072502CBD09A900B88BD2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC4072512CBD09B400B88BD2 /* digital-7.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AC9AE3652CC933BB0070DDE4 /* MP3 Ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AE3682CC93B7D0070DDE4 /* morning_alarm.mp3 */,
+				AC3F1E2B2F60CA1700C5F0EB /* alarm.mp3 */,
+				AC3F1E2A2F60CA1700C5F0EB /* wake_up.mp3 */,
+				AC3F1E282F60C88000C5F0EB /* skype_call.mp3 */,
+				AC9AE3662CC933D10070DDE4 /* morning_flower.mp3 */,
+			);
+			path = "MP3 Ringtones";
+			sourceTree = "<group>";
+		};
+		AC9AE36A2CC93FB80070DDE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC4072592CBF71CC00B88BD2 /* Time.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC9AE36B2CC93FC10070DDE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC4072402CBCF72300B88BD2 /* AlarmView.swift */,
+				AC40725B2CBF740400B88BD2 /* AlarmTimePicker.swift */,
+				AC4072532CBD11EF00B88BD2 /* SettingsList.swift */,
+				AC3F1E1C2F5C52B500C5F0EB /* RingtoneList.swift */,
+				AC3F1E1E2F5C64A100C5F0EB /* ThemesView.swift */,
+				AC3F1E202F5C653900C5F0EB /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACCE274F2F6223D5004C6EB8 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27502F6223F8004C6EB8 /* ToastMessageView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		ACCE27572F64F7A6004C6EB8 /* ThemesViews */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE275A2F64F7F3004C6EB8 /* Default Theme */,
+				ACCE27652F64F939004C6EB8 /* Black Red Theme */,
+				ACCE27722F650CE8004C6EB8 /* White Blue Theme */,
+				ACCE277F2F6513A3004C6EB8 /* Yellow Black Theme */,
+				ACCE27802F6513B6004C6EB8 /* Blue Orange Theme */,
+				ACCE27812F6513D1004C6EB8 /* Pink White Theme */,
+				ACCE27832F6513FE004C6EB8 /* White Mint Theme */,
+			);
+			path = ThemesViews;
+			sourceTree = "<group>";
+		};
+		ACCE275A2F64F7F3004C6EB8 /* Default Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27582F64F7C1004C6EB8 /* DefaultThemeAlarmView.swift */,
+				ACCE275B2F64F849004C6EB8 /* DefaultThemeAlarmTimePickerView.swift */,
+				ACCE275D2F64F873004C6EB8 /* DefaultThemeSettingsListView.swift */,
+				ACCE275F2F64F8A4004C6EB8 /* DefaultThemeRingtoneListView.swift */,
+				ACCE27612F64F8E8004C6EB8 /* DefaultThemeThemesView.swift */,
+				ACCE27632F64F913004C6EB8 /* DefaultThemeAboutView.swift */,
+			);
+			path = "Default Theme";
+			sourceTree = "<group>";
+		};
+		ACCE27652F64F939004C6EB8 /* Black Red Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27662F64F96B004C6EB8 /* BlackRedAlarmView.swift */,
+				ACCE27682F64F993004C6EB8 /* BlackRedAlarmTimePickerView.swift */,
+				ACCE276A2F64F9DE004C6EB8 /* BlackRedSettingsListView.swift */,
+				ACCE276C2F64FA03004C6EB8 /* BlackRedRingtoneListView.swift */,
+				ACCE276E2F64FA33004C6EB8 /* BlackRedThemesView.swift */,
+				ACCE27702F64FA5E004C6EB8 /* BlackRedAboutView.swift */,
+			);
+			path = "Black Red Theme";
+			sourceTree = "<group>";
+		};
+		ACCE27722F650CE8004C6EB8 /* White Blue Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27732F650D44004C6EB8 /* WhiteBlueAlarmView.swift */,
+				ACCE27752F650FCC004C6EB8 /* WhiteBlueAlarmTimePickerView.swift */,
+				ACCE27772F651047004C6EB8 /* WhiteBlueSettingsListView.swift */,
+				ACCE27792F651086004C6EB8 /* WhiteBlueRingtoneListView.swift */,
+				ACCE277B2F6510B5004C6EB8 /* WhiteBlueThemesView.swift */,
+				ACCE277D2F6510E6004C6EB8 /* WhiteBlueAboutView.swift */,
+			);
+			path = "White Blue Theme";
+			sourceTree = "<group>";
+		};
+		ACCE277F2F6513A3004C6EB8 /* Yellow Black Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27872F666099004C6EB8 /* YellowBlackAlarmView.swift */,
+				ACCE27892F6660B3004C6EB8 /* YellowBlackAlarmTimePicker.swift */,
+				ACCE278B2F6660C9004C6EB8 /* YellowBlackSettingsListView.swift */,
+				ACCE278D2F6660DB004C6EB8 /* YellowBlackRingtoneListView.swift */,
+				ACCE278F2F6660E7004C6EB8 /* YellowBlackThemesView.swift */,
+				ACCE27912F6660F3004C6EB8 /* YellowBlackAboutView.swift */,
+			);
+			path = "Yellow Black Theme";
+			sourceTree = "<group>";
+		};
+		ACCE27802F6513B6004C6EB8 /* Blue Orange Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27932F666182004C6EB8 /* BlueOrangeAlarmView.swift */,
+				ACCE27952F66619C004C6EB8 /* BlueOrangeAlarmTimePickerView.swift */,
+				ACCE27972F6661AF004C6EB8 /* BlueOrangeSettingsListView.swift */,
+				ACCE27992F6661C0004C6EB8 /* BlueOrangeRingtoneListView.swift */,
+				ACCE279B2F6661CD004C6EB8 /* BlueOrangeThemesView.swift */,
+				ACCE279D2F6661DB004C6EB8 /* BlueOrangeAboutView.swift */,
+			);
+			path = "Blue Orange Theme";
+			sourceTree = "<group>";
+		};
+		ACCE27812F6513D1004C6EB8 /* Pink White Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE279F2F6661F6004C6EB8 /* PinkWhiteAlarmView.swift */,
+				ACCE27A12F666202004C6EB8 /* PinkWhiteAlarmTimePickerView.swift */,
+				ACCE27A32F666213004C6EB8 /* PinkWhiteSettingsListView.swift */,
+				ACCE27A52F666223004C6EB8 /* PinkWhiteRingtoneListView.swift */,
+				ACCE27A72F66622F004C6EB8 /* PinkWhiteThemesView.swift */,
+				ACCE27A92F666239004C6EB8 /* PinkWhiteAboutView.swift */,
+			);
+			path = "Pink White Theme";
+			sourceTree = "<group>";
+		};
+		ACCE27832F6513FE004C6EB8 /* White Mint Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE27B72F6662AC004C6EB8 /* WhiteMintAlarmView.swift */,
+				ACCE27B92F6662B6004C6EB8 /* WhiteMintAlarmTimePickerView.swift */,
+				ACCE27BB2F6662C4004C6EB8 /* WhiteMintSettingsListView.swift */,
+				ACCE27BD2F6662D0004C6EB8 /* WhiteMintRingtoneListView.swift */,
+				ACCE27BF2F6662DE004C6EB8 /* WhiteMintThemesView.swift */,
+				ACCE27C12F6662E8004C6EB8 /* WhiteMintAboutView.swift */,
+			);
+			path = "White Mint Theme";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC40723A2CBCF72300B88BD2 /* Alarm-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4072492CBCF72500B88BD2 /* Build configuration list for PBXNativeTarget "Alarm-SwiftUI" */;
+			buildPhases = (
+				AC4072372CBCF72300B88BD2 /* Sources */,
+				AC4072382CBCF72300B88BD2 /* Frameworks */,
+				AC4072392CBCF72300B88BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alarm-SwiftUI";
+			productName = "Alarm-SwiftUI";
+			productReference = AC40723B2CBCF72300B88BD2 /* Alarm-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4072332CBCF72300B88BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC40723A2CBCF72300B88BD2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC4072362CBCF72300B88BD2 /* Build configuration list for PBXProject "Alarm-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4072322CBCF72300B88BD2;
+			productRefGroup = AC40723C2CBCF72300B88BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC40723A2CBCF72300B88BD2 /* Alarm-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4072392CBCF72300B88BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9AE3672CC933D10070DDE4 /* morning_flower.mp3 in Resources */,
+				AC3F1E292F60C88100C5F0EB /* skype_call.mp3 in Resources */,
+				AC4072462CBCF72500B88BD2 /* Preview Assets.xcassets in Resources */,
+				AC4072522CBD09C100B88BD2 /* digital-7.ttf in Resources */,
+				AC9AE42F2CD6B52D0070DDE4 /* click.mp3 in Resources */,
+				AC9AE4302CD6B52D0070DDE4 /* click-3.mp3 in Resources */,
+				AC4072432CBCF72500B88BD2 /* Assets.xcassets in Resources */,
+				AC3F1E2C2F60CA1700C5F0EB /* wake_up.mp3 in Resources */,
+				AC9AE4312CD6B52D0070DDE4 /* click-2.mp3 in Resources */,
+				AC3F1E2D2F60CA1700C5F0EB /* alarm.mp3 in Resources */,
+				AC9AE3692CC93B7D0070DDE4 /* morning_alarm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4072372CBCF72300B88BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCE27742F650D44004C6EB8 /* WhiteBlueAlarmView.swift in Sources */,
+				ACCE277C2F6510B5004C6EB8 /* WhiteBlueThemesView.swift in Sources */,
+				ACCE279E2F6661DB004C6EB8 /* BlueOrangeAboutView.swift in Sources */,
+				AC40725A2CBF71CC00B88BD2 /* Time.swift in Sources */,
+				AC4072412CBCF72300B88BD2 /* AlarmView.swift in Sources */,
+				ACCE279A2F6661C0004C6EB8 /* BlueOrangeRingtoneListView.swift in Sources */,
+				ACCE27622F64F8E8004C6EB8 /* DefaultThemeThemesView.swift in Sources */,
+				ACCE279C2F6661CD004C6EB8 /* BlueOrangeThemesView.swift in Sources */,
+				ACCE27982F6661AF004C6EB8 /* BlueOrangeSettingsListView.swift in Sources */,
+				ACCE275C2F64F849004C6EB8 /* DefaultThemeAlarmTimePickerView.swift in Sources */,
+				ACCE27B82F6662AC004C6EB8 /* WhiteMintAlarmView.swift in Sources */,
+				ACCE278E2F6660DB004C6EB8 /* YellowBlackRingtoneListView.swift in Sources */,
+				ACCE27A02F6661F6004C6EB8 /* PinkWhiteAlarmView.swift in Sources */,
+				ACCE27672F64F96B004C6EB8 /* BlackRedAlarmView.swift in Sources */,
+				ACCE27BC2F6662C4004C6EB8 /* WhiteMintSettingsListView.swift in Sources */,
+				ACCE277A2F651086004C6EB8 /* WhiteBlueRingtoneListView.swift in Sources */,
+				ACCE27A82F66622F004C6EB8 /* PinkWhiteThemesView.swift in Sources */,
+				AC4072542CBD11EF00B88BD2 /* SettingsList.swift in Sources */,
+				ACCE27592F64F7C1004C6EB8 /* DefaultThemeAlarmView.swift in Sources */,
+				ACCE27882F666099004C6EB8 /* YellowBlackAlarmView.swift in Sources */,
+				ACCE27A22F666202004C6EB8 /* PinkWhiteAlarmTimePickerView.swift in Sources */,
+				ACCE27512F6223F8004C6EB8 /* ToastMessageView.swift in Sources */,
+				ACCE275E2F64F873004C6EB8 /* DefaultThemeSettingsListView.swift in Sources */,
+				ACCE27A42F666213004C6EB8 /* PinkWhiteSettingsListView.swift in Sources */,
+				AC40723F2CBCF72300B88BD2 /* Alarm_SwiftUIApp.swift in Sources */,
+				ACCE278A2F6660B3004C6EB8 /* YellowBlackAlarmTimePicker.swift in Sources */,
+				ACCE27BE2F6662D0004C6EB8 /* WhiteMintRingtoneListView.swift in Sources */,
+				ACCE27BA2F6662B6004C6EB8 /* WhiteMintAlarmTimePickerView.swift in Sources */,
+				ACCE27922F6660F3004C6EB8 /* YellowBlackAboutView.swift in Sources */,
+				ACCE27642F64F913004C6EB8 /* DefaultThemeAboutView.swift in Sources */,
+				ACCE274E2F621AEF004C6EB8 /* RingtoneAlarmPickerObservation.swift in Sources */,
+				ACCE27C02F6662DE004C6EB8 /* WhiteMintThemesView.swift in Sources */,
+				ACCE27A62F666223004C6EB8 /* PinkWhiteRingtoneListView.swift in Sources */,
+				ACCE276B2F64F9DE004C6EB8 /* BlackRedSettingsListView.swift in Sources */,
+				ACCE27942F666182004C6EB8 /* BlueOrangeAlarmView.swift in Sources */,
+				ACCE27782F651047004C6EB8 /* WhiteBlueSettingsListView.swift in Sources */,
+				AC3F1E212F5C653900C5F0EB /* AboutView.swift in Sources */,
+				ACCE277E2F6510E6004C6EB8 /* WhiteBlueAboutView.swift in Sources */,
+				ACCE276D2F64FA03004C6EB8 /* BlackRedRingtoneListView.swift in Sources */,
+				ACCE27562F64F6C7004C6EB8 /* TimeDateHandler.swift in Sources */,
+				AC3F1E1F2F5C64A200C5F0EB /* ThemesView.swift in Sources */,
+				ACCE27AA2F666239004C6EB8 /* PinkWhiteAboutView.swift in Sources */,
+				ACCE27902F6660E7004C6EB8 /* YellowBlackThemesView.swift in Sources */,
+				ACCE276F2F64FA33004C6EB8 /* BlackRedThemesView.swift in Sources */,
+				AC3F1E262F5EF8F100C5F0EB /* AlarmRingtoneHandler.swift in Sources */,
+				ACCE27692F64F993004C6EB8 /* BlackRedAlarmTimePickerView.swift in Sources */,
+				AC3F1E1B2F59B4EA00C5F0EB /* AVAudioPlayerObserver.swift in Sources */,
+				ACCE27712F64FA5E004C6EB8 /* BlackRedAboutView.swift in Sources */,
+				AC40725C2CBF740400B88BD2 /* AlarmTimePicker.swift in Sources */,
+				ACCE27762F650FCC004C6EB8 /* WhiteBlueAlarmTimePickerView.swift in Sources */,
+				AC3F1E232F5CD3F600C5F0EB /* LocalNotification.swift in Sources */,
+				ACCE27602F64F8A4004C6EB8 /* DefaultThemeRingtoneListView.swift in Sources */,
+				ACCE27C22F6662E8004C6EB8 /* WhiteMintAboutView.swift in Sources */,
+				ACCE278C2F6660C9004C6EB8 /* YellowBlackSettingsListView.swift in Sources */,
+				AC3F1E1D2F5C52B500C5F0EB /* RingtoneList.swift in Sources */,
+				ACCE27962F66619C004C6EB8 /* BlueOrangeAlarmTimePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC4072472CBCF72500B88BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4072482CBCF72500B88BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC40724A2CBCF72500B88BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alarm-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alarm-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercury.Alarm-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC40724B2CBCF72500B88BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alarm-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Alarm-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercury.Alarm-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4072362CBCF72300B88BD2 /* Build configuration list for PBXProject "Alarm-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4072472CBCF72500B88BD2 /* Debug */,
+				AC4072482CBCF72500B88BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4072492CBCF72500B88BD2 /* Build configuration list for PBXNativeTarget "Alarm-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40724A2CBCF72500B88BD2 /* Debug */,
+				AC40724B2CBCF72500B88BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4072332CBCF72300B88BD2 /* Project object */;
+}
